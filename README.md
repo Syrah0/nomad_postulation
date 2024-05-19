@@ -2,14 +2,14 @@
 
 En este repositorio encontrará la solución realizada para la tarea técnica entregada.
 
-El stack utilizado contempla VueJS (con quasar) + FastApi.
+El stack utilizado contempla **VueJS (con quasar) + FastApi.**
 
 ## Requerimientos
 Es necesario contar con [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). Además, el proyecto fue creado utilizando la versión 18 de Node.
 
 ## Correr proyecto con docker
 
-En caso de contar con docker-compose, es posible correr el proyecto utilizando el siguiente comando:
+En caso de contar con docker-compose, es posible correr el proyecto utilizando el siguiente comando en la carpeta principal del proyecto:
 
 ```bash
 docker compose up --build
@@ -31,7 +31,7 @@ Una vez cuente con los requerimientos podrá ejecutar el proyecto de la siguient
 
 ### Levantar Backend
 
-Para esto debe ir a la carpeta nomad-server en la terminal, utilizando el comando:
+Para esto debe ir a la carpeta **nomad-server** en la terminal, utilizando el comando:
 
 ```bash
 cd nomad-server
@@ -57,7 +57,7 @@ INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 
 ### Levantar Frontend
 
-Para esto debe ir a la carpeta nomad-ui en otra terminal, utilizando el comando:
+Para esto debe ir a la carpeta **nomad-ui** en otra terminal, utilizando el comando:
 
 ```bash
 cd nomad-ui
@@ -85,7 +85,7 @@ Y desplegará la página en el browser
 
 ## Acceso a la página web
 
-Una vez levantados el backend y el frontend podrá acceder a la plataforma web en el browser de su preferencia utilizando la url localhost:9000
+Una vez levantados el backend y el frontend podrá acceder a la plataforma web en el browser de su preferencia utilizando la url **localhost:9000**.
 
 ## Supuestos realizados
 
