@@ -5,27 +5,15 @@ En este repositorio encontrará la solución realizada para la tarea técnica en
 El stack utilizado contempla **VueJS (con quasar) + FastApi.**
 
 ## Requerimientos
-Es necesario contar con [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). Además, el proyecto fue creado utilizando la versión 18 de Node.
-
-## Correr proyecto con docker
-
-En caso de contar con docker-compose, es posible correr el proyecto utilizando el siguiente comando en la carpeta principal del proyecto:
-
-```bash
-docker compose up --build
-```
-
-Esto instalará todas las dependencias tanto de backend y frontend.
-
-## Correr proyecto sin docker
-
-En caso de querer correr el proyecto de forma manual debe contar con [poetry](https://python-poetry.org/docs/) y la versión de Node mencionada en los requerimientos.
-
-Si no cuenta con Node 18 puede ejecutar el siguiente comando para cambiar la versión en caso de tener instalado [nvm](https://github.com/nvm-sh/nvm)
+Es necesario contar con [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+Además, debe contar con [poetry](https://python-poetry.org/docs/).
+Por último, el proyecto fue creado utilizando Python 10 y la versión 18 de Node. Si no cuenta con Node 18 puede ejecutar el siguiente comando para cambiar la versión en caso de tener instalado [nvm](https://github.com/nvm-sh/nvm).
 
 ```bash
 nvm use 18
 ```
+
+## Correr proyecto
 
 Una vez cuente con los requerimientos podrá ejecutar el proyecto de la siguiente manera. Es importante señalar que backend y frontend deben ser levantados en terminales diferentes, de forma que ambas plataformas esten levantadas al mismo tiempo.
 
