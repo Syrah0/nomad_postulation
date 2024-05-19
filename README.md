@@ -7,9 +7,9 @@ El stack utilizado contempla **VueJS (con quasar) + FastApi.**
 ## Requerimientos
 Es necesario contar con [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-Además, debe contar con [poetry](https://python-poetry.org/docs/).
+Además, debe contar con [poetry](https://python-poetry.org/docs/). La versión utilizada para este proyecto fue la **versión 1.5.1**.
 
-Por último, el proyecto fue creado utilizando Python 10 y la versión 18 de Node. Si no cuenta con Node 18 puede ejecutar el siguiente comando para cambiar la versión en caso de tener instalado [nvm](https://github.com/nvm-sh/nvm).
+Por último, el proyecto fue creado utilizando **Python 10** y **Node 18**. Si no cuenta con Node 18 puede ejecutar el siguiente comando para cambiar la versión en caso de tener instalado [nvm](https://github.com/nvm-sh/nvm).
 
 ```bash
 nvm use 18
