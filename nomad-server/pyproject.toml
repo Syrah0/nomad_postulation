@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nomad-server"
+version = "0.1.0"
+description = ""
+authors = ["Alexandra <alexandra.ibarra.c@gmail.com>"]
+readme = "README.md"
+packages = [{include = "api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
