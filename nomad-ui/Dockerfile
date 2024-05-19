@@ -1,4 +1,4 @@
-FROM node:16.14.2-slim
+FROM node:18-slim
 
 WORKDIR /app
 
@@ -11,6 +11,6 @@ RUN npm install
 COPY src src
 COPY public public
 
-COPY index.html jsconfig.json postcss.config.js quasar.config.js package.json package-lock.json ./
+COPY index.html postcss.config.cjs quasar.config.js package.json package-lock.json ./
 
 EXPOSE 9000
