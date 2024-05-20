@@ -33,6 +33,9 @@ Posicionado en la carpeta deberá ejecutar los siguientes comandos para levantar
 poetry install
 ```
 ```bash
+poetry shell
+```
+```bash
 fastapi run main.py
 ```
 
