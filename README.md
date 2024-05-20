@@ -30,10 +30,10 @@ cd nomad-server
 Posicionado en la carpeta deberá ejecutar los siguientes comandos para levantar el backend en el puerto 8000
 
 ```bash
-poetry install
+poetry shell
 ```
 ```bash
-poetry shell
+poetry install
 ```
 ```bash
 fastapi run main.py
