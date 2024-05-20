@@ -7,7 +7,7 @@ El stack utilizado contempla **FastApi.**
 ## Requerimientos
 Además, debe contar con [poetry](https://python-poetry.org/docs/). La versión utilizada para este proyecto fue la **versión 1.5.1**.
 
-Por último, el proyecto fue creado utilizando **Python 10**.
+Por último, el proyecto fue creado utilizando **Python 3.10**.
 
 ## Correr proyecto
 
